@@ -37,19 +37,19 @@ Trabajo fundamental con archivos de texto**
 
 **En estos casos podemos utilizar el comando grep para filtrar las líneas que queremos visualizar utilizando (o no) expresiones regulares:**
 
-**grep “palabra-clave” archivo_gigante.txt**
+> **grep “palabra-clave” archivo_gigante.txt**
 
 **Si nos da igual si la palabra clave incluye mayúsculas o minúsculas podemos utilizar el flag -i:**
 
-**grep -i “pAlaBra-cLAvE” archivo_gigante.txt**
+> **grep -i “pAlaBra-cLAvE” archivo_gigante.txt**
 
 **También podemos verificar si la línea incluye esta palabra clave al final:**
 
-**grep “palabra-clave$” archivo_gigante.txt**
+> **grep “palabra-clave$” archivo_gigante.txt**
 
 **O si la incluye al principio:**
 
-**grep “^palabra-clave” archivo_gigante.txt**
+> **grep “^palabra-clave” archivo_gigante.txt**
 
 **También hay situaciones donde necesitamos modificar un poco la información que obtenemos de un archivo de texto.**
 
